@@ -80,5 +80,26 @@ public class CustomerDAO {
 		
 	}
 	
+	public static boolean signup(String id, String pw, String name) throws SQLException {
+		Connection con = null;
+		PreparedStatement pstmt = null;
+		String sql = "insert into customer values (?,?,?)";
+		boolean result = false;
+		try {
+			con = DButil.getConnection();
+			pstmt=con.prepareStatement(sql);
+			pstmt.setString(1,id);
+			pstmt.setString(2, pw);
+			pstmt.setString(3,name);
+			int check =  pstmt.executeUpdate();
+			if(check!=0) {
+				result  = true;
+			}
+		}finally {
+			DButil.close(con, pstmt);
+		}		
+		return result;
+	}
+	
 	
 }

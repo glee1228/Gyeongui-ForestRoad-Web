@@ -50,8 +50,8 @@ public class AllController extends HttpServlet {
 		String command = request.getParameter("command");
 		if(command.equals("login")) {
 			login(request,response);
-		}else if(command.equals("rename")) {
-			update(request,response);
+		}else if(command.equals("signup")) {
+			signup(request,response);
 		}else if(command.equals("logout")){
 			logout(request,response);
 		}else if(command.equals("all")){
@@ -61,6 +61,35 @@ public class AllController extends HttpServlet {
 		}
 	}
 
+	private void signup(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		request.setCharacterEncoding("UTF-8");
+		String id = request.getParameter("id");
+		String pw = request.getParameter("pw");
+		String name = request.getParameter("name");
+		System.out.println("----- " + name);
+		if (id != null && pw!=null&&name != null) {
+			try {
+				if (CustomerDAO.signup(id, pw,name)) {
+					System.out.println("회원가입 완료");
+					response.sendRedirect("index.html");
+				} else {
+					request.setAttribute("msg", "범위를 벗어난 입력입니다.");
+					try {
+						request.getRequestDispatcher("msgView.jsp").forward(request, response);
+					} catch (ServletException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} else {
+			System.out.println("정보를 제대로 입력해주세요");
+			response.sendRedirect("index.html");
+		}		
+	}
 	// 로그인 처리 메소드
 	protected void login(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -95,7 +124,8 @@ public class AllController extends HttpServlet {
 		HttpSession session = request.getSession();
 		session.invalidate();
 		session = null;
-		response.sendRedirect("byView.jsp");
+		//response.sendRedirect("byView.jsp");
+		response.sendRedirect("index.html");
 
 	}
 	

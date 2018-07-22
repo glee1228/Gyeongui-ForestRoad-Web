@@ -330,3 +330,93 @@
 7월 22, 2018 19:34:13.47 [0722/193413.471:ERROR:crash_report_database_win.cc(428)] unexpected header
 7월 22, 2018 19:34:13.47 [0722/193413.471:ERROR:crash_report_database_win.cc(428)] unexpected header
 7월 22, 2018 19:39:13.47 [0722/193913.471:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 19:49:47.63 [0722/194947.637:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 19:53:13.15 [0722/195313.155:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 19:54:13.47 [0722/195413.471:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 20:45:11.82 [0722/204511.822:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 20:45:20.78 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 22, 2018 20:45:20.78 [18000:17296:0722/204520.789:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 20:45:23.03 [18000:17296:0722/204523.035:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 20:45:29.06 [18000:17296:0722/204529.064:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 20:47:00.73 [0722/204700.739:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 20:50:30.22 [0722/205030.227:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 20:51:00.93 [0722/205100.932:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 20:51:00.98 [11872:17092:0722/205100.980:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 22, 2018 20:52:32.11 [0722/205232.110:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 20:56:42.94 [0722/205642.946:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:01:00.93 [0722/210100.932:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:01:00.93 [0722/210100.932:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:02:21.49 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 22, 2018 21:02:21.49 [11872:18472:0722/210221.496:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 21:02:23.90 [11872:18472:0722/210223.901:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 21:04:26.49 [0722/210426.490:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:06:00.93 [0722/210600.933:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:21:00.93 [0722/212100.934:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:24:28.63 [0722/212428.636:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:25:13.34 [0722/212513.344:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:25:20.85 [11872:18472:0722/212520.854:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 21:25:22.80 [11872:18472:0722/212522.807:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 21:25:27.06 [0722/212527.061:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:26:22.44 [0722/212622.446:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:26:34.72 [11872:18472:0722/212634.721:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 21:26:36.21 [11872:18472:0722/212636.210:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 21:27:22.90 [0722/212722.904:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:29:23.20 [0722/212923.206:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:29:25.18 [11872:18472:0722/212925.187:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 21:29:28.04 [11872:18472:0722/212928.042:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 21:36:00.93 [0722/213600.935:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:42:25.80 [0722/214225.805:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:51:00.93 [0722/215100.935:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 21:53:58.48 [0722/215358.482:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:00:03.95 [0722/220003.959:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:00:32.98 [0722/220032.983:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:06:00.93 [0722/220600.936:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:06:25.95 [0722/220625.951:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:12:29.76 [0722/221229.766:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:13:56.48 [0722/221356.485:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:14:52.88 [0722/221452.883:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:17:26.14 [0722/221726.148:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:17:26.19 [19368:10108:0722/221726.199:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 22, 2018 22:27:26.14 [0722/222726.148:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:27:26.14 [0722/222726.148:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:28:50.20 [0722/222850.204:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:30:51.19 [0722/223051.194:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:32:26.14 [0722/223226.148:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:32:43.60 [0722/223243.606:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:42:53.84 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 22, 2018 22:42:54.56 [0722/224254.562:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:42:54.66 [18832:3252:0722/224254.665:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 22, 2018 22:43:30.16 [0722/224330.161:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:44:37.34 [0722/224437.347:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:45:40.42 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 22, 2018 22:48:12.87 [0722/224812.878:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:48:12.94 [6640:18548:0722/224812.944:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 22, 2018 22:54:59.34 [0722/225459.346:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:58:12.87 [0722/225812.878:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:58:12.88 [0722/225812.878:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 22:58:29.28 [0722/225829.285:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:02:11.22 [0722/230211.224:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:03:12.87 [0722/230312.879:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:03:22.63 [0722/230322.639:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:03:27.39 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 22, 2018 23:03:30.43 [0722/230330.431:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:03:30.48 [10848:9760:0722/230330.481:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 22, 2018 23:05:19.59 [0722/230519.597:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:05:19.63 [13664:15712:0722/230519.632:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 22, 2018 23:11:59.84 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 22, 2018 23:11:59.84 [13664:648:0722/231159.842:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 23:12:03.66 [13664:648:0722/231203.669:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 23:12:27.00 [13664:648:0722/231227.000:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 23:13:15.60 [0722/231315.608:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:15:19.59 [0722/231519.597:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:15:19.59 [0722/231519.597:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:15:32.81 [13664:648:0722/231532.810:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 23:20:19.59 [0722/232019.598:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:35:19.59 [0722/233519.599:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:37:40.69 [13664:648:0722/233740.693:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 23:48:02.16 [13664:648:0722/234802.166:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 23:49:08.17 [13664:648:0722/234908.172:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 23:49:12.66 [13664:648:0722/234912.661:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 23:49:15.88 [13664:648:0722/234915.888:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 22, 2018 23:50:19.60 [0722/235019.599:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 22, 2018 23:50:48.25 [13664:648:0722/235048.258:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
