@@ -31,6 +31,7 @@ public class CustomerDAO {
 		return data;
 		
 	}
+	
 	//로그인 검증 - id/pw 값으로 name 반환
 	//select : query
 	public static String loginCheck(String id,String pw) throws SQLException  {
