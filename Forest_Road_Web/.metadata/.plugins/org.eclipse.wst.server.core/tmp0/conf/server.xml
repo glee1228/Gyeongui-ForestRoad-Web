@@ -60,7 +60,7 @@
          APR (HTTP/AJP) Connector: /docs/apr.html
          Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
     -->
-    <Connector connectionTimeout="20000" port="8081" protocol="HTTP/1.1" redirectPort="8443"/>
+    <Connector connectionTimeout="20000" port="8089" protocol="HTTP/1.1" redirectPort="8443"/>
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
@@ -149,7 +149,10 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\user\Desktop\공부자료\GitHub\Forest_Road_Web\Forest_Road_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\user\Desktop\공부자료\GitHub\Forest_Road_Web\Forest_Road_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\forestRoad_web" path="/forestRoad_web" reloadable="true" source="org.eclipse.jst.jee.server:forestRoad_web"/></Host>
+      <Context docBase="C:\Users\user\Desktop\공부자료\GitHub\Forest_Road_Web\Gyeongui-ForestRoad-Web\Forest_Road_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\user\Desktop\공부자료\GitHub\Forest_Road_Web\Gyeongui-ForestRoad-Web\Forest_Road_Web\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\forestRoad_web" path="/forestRoad_web" reloadable="true" source="org.eclipse.jst.jee.server:forestRoad_web">
+	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="ldh1228" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:xe" username="MULCAM"/>
+
+</Context></Host>
     </Engine>
   </Service>
 </Server>

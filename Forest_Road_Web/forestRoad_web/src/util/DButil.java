@@ -16,7 +16,7 @@ public class DButil {
 		try {
 		// 서버의 설정 파일 정보 활용 가능한 자바 객체
 		//설정 별칭으로 자원을 검색 및 받아서 활용
-		//java:/comp/env - java compoznent environment	
+		//java:/comp/env - java component environment	
 		Context initContext = new InitialContext();
 		Context envContext  = (Context)initContext.lookup("java:/comp/env");
 		ds = (DataSource)envContext.lookup("jdbc/myoracle");
