@@ -462,3 +462,7 @@
 7월 23, 2018 01:55:11.51 [13664:648:0723/015511.514:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
 7월 23, 2018 01:55:25.49 [13664:648:0723/015525.491:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
 7월 23, 2018 01:56:26.60 [13664:648:0723/015626.604:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 23, 2018 02:08:06.79 [0723/020806.792:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 23, 2018 09:02:25.23 [0723/090225.235:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 23, 2018 11:48:22.83 [0723/114822.833:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 23, 2018 17:27:46.88 [0723/172746.882:ERROR:crash_report_database_win.cc(428)] unexpected header
