@@ -7,7 +7,7 @@
 <title>msgView.jsp</title>
 </head>
 <body>
-${requestScope.msg }
+${sessionScope.msg }
 
 </body>
 </html>

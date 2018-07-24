@@ -39,7 +39,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import model.CustomerDAO;
+import model.PlaceDAO;
 import model.domain.CustomerDTO;
+import model.domain.PlaceDTO;
 
 public class AllController extends HttpServlet {
        
@@ -56,11 +58,38 @@ public class AllController extends HttpServlet {
 			logout(request,response);
 		}else if(command.equals("all")){
 			all(request,response);
+		}else if(command.equals("search")){
+			search(request,response);
 		}else {
 			response.sendRedirect("login.html");
 		}
 	}
 
+	private void search(HttpServletRequest request, HttpServletResponse response)throws IOException, ServletException {
+		request.setCharacterEncoding("UTF-8");
+		HttpSession session = request.getSession(false);
+		session.setAttribute("type", request.getParameter("type"));
+		System.out.println(request.getParameter("lat")+request.getParameter("lng")+request.getParameter("type")+request.getParameter("distance"));
+		System.out.println(session.getAttribute("type"));
+		String type = (String) session.getAttribute("type");
+		try {
+			
+			ArrayList<PlaceDTO> typesearch = PlaceDAO.typeSearch(type);
+			System.out.println(typesearch.size());
+			if (typesearch.size() == 0) {
+				request.setAttribute("msg", "정보가 없습니다");
+				request.getRequestDispatcher("msgView.jsp").forward(request, response);
+			} else {
+				session.setAttribute("typesearch", typesearch);
+				response.sendRedirect("loginSucc.jsp");
+			}
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+			request.setAttribute("msg", "검색 실패. 재시도 하세요.");
+			request.getRequestDispatcher("msgView.jsp").forward(request, response);
+		}
+	}
 	private void signup(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		request.setCharacterEncoding("UTF-8");
 		String id = request.getParameter("id");
@@ -96,12 +125,15 @@ public class AllController extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		String id = request.getParameter("id");
 		String pw = request.getParameter("pw");
+		String type = "restaurant";
 		if (id != null && pw != null) {
 			try {
 				String name = CustomerDAO.loginCheck(id, pw);
 				if (name != null) { // 회원일 경우
 					HttpSession session = request.getSession();
+					session.setAttribute("dataAll", PlaceDAO.typeSearchAll());
 					session.setAttribute("name", name);
+					session.setAttribute("type", type);
 					response.sendRedirect("loginSucc.jsp");
 				} else { // 비회원일 경우
 					// 요청 객체에 "당신은 회원이 아니십니다"

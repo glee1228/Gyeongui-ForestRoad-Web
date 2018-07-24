@@ -466,3 +466,227 @@
 7월 23, 2018 09:02:25.23 [0723/090225.235:ERROR:crash_report_database_win.cc(428)] unexpected header
 7월 23, 2018 11:48:22.83 [0723/114822.833:ERROR:crash_report_database_win.cc(428)] unexpected header
 7월 23, 2018 17:27:46.88 [0723/172746.882:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 23, 2018 22:39:19.58 [0723/223919.581:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 23, 2018 22:44:02.37 [0723/224402.374:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 23, 2018 23:31:06.72 [0723/233106.721:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 24:38:53.43 [0724/003853.435:ERROR:crash_report_database_win.cc(428)] unexpected header
+
+7월 24, 2018 03:23:30.44 NEW SESSION
+7월 24, 2018 03:23:30.44 [0724/032330.439:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 03:58:23.98 [0724/035823.980:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 05:08:38.92 [0724/050838.922:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 08:59:52.37 [0724/085952.371:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:01:20.63 [0724/090120.634:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:03:32.99 [0724/090332.992:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:03:33.04 [18972:19276:0724/090333.042:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 24, 2018 09:07:05.59 [0724/090705.592:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:07:06.64 [0724/090706.640:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:07:07.39 [0724/090707.394:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:07:12.61 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 24, 2018 09:09:24.60 [0724/090924.606:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:09:46.91 [0724/090946.911:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:11:56.82 [0724/091156.828:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:12:04.52 [0724/091204.522:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:14:52.43 [0724/091452.437:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:15:15.05 [0724/091515.052:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:15:33.95 [0724/091533.953:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:15:43.69 [0724/091543.691:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:15:43.72 [15228:12128:0724/091543.728:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 24, 2018 09:18:46.68 [0724/091846.687:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:18:46.72 [14268:13904:0724/091846.725:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 24, 2018 09:28:46.68 [0724/092846.688:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:28:46.68 [0724/092846.688:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:29:58.60 [0724/092958.606:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:32:35.61 [0724/093235.615:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:33:46.68 [0724/093346.688:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:37:21.00 [0724/093721.005:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:39:25.31 [0724/093925.314:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:40:07.98 [0724/094007.985:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 09:48:46.68 [0724/094846.689:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:02:22.14 [0724/100222.142:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:03:46.68 [0724/100346.689:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:17:49.73 [0724/101749.731:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:18:46.69 [0724/101846.690:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:25:21.32 [0724/102521.329:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:26:27.55 [0724/102627.551:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:28:22.25 [0724/102822.249:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:33:46.69 [0724/103346.690:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:35:52.96 [0724/103552.962:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:48:18.52 [0724/104818.526:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:48:46.69 [0724/104846.690:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 10:54:52.17 [0724/105452.179:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 11:00:32.61 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 24, 2018 11:00:32.62 [14268:13904:0724/110032.618:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:00:35.48 [14268:13904:0724/110035.485:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:00:38.35 [14268:13904:0724/110038.354:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:00:41.22 [14268:13904:0724/110041.223:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:00:44.09 [14268:13904:0724/110044.095:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:00:46.97 [14268:13904:0724/110046.974:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:00:49.83 [14268:13904:0724/110049.839:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:00:52.71 [14268:13904:0724/110052.710:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:00:55.57 [14268:13904:0724/110055.571:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:00:58.43 [14268:13904:0724/110058.436:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:01.30 [14268:13904:0724/110101.300:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:04.17 [14268:13904:0724/110104.169:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:07.03 [14268:13904:0724/110107.038:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:09.90 [14268:13904:0724/110109.909:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:12.79 [14268:13904:0724/110112.790:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:15.65 [14268:13904:0724/110115.656:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:18.53 [14268:13904:0724/110118.538:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:21.40 [14268:13904:0724/110121.405:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:24.26 [14268:13904:0724/110124.267:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:27.14 [14268:13904:0724/110127.140:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:30.00 [14268:13904:0724/110130.007:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:32.87 [14268:13904:0724/110132.878:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:35.74 [14268:13904:0724/110135.741:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:38.61 [14268:13904:0724/110138.610:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:41.48 [14268:13904:0724/110141.482:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:44.34 [14268:13904:0724/110144.344:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:47.21 [14268:13904:0724/110147.210:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:50.08 [14268:13904:0724/110150.082:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:52.95 [14268:13904:0724/110152.951:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:55.82 [14268:13904:0724/110155.819:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:01:58.69 [14268:13904:0724/110158.695:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:01.56 [14268:13904:0724/110201.562:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:04.43 [14268:13904:0724/110204.435:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:07.30 [14268:13904:0724/110207.304:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:10.17 [14268:13904:0724/110210.170:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:13.04 [14268:13904:0724/110213.042:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:15.91 [14268:13904:0724/110215.914:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:18.78 [14268:13904:0724/110218.785:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:21.64 [14268:13904:0724/110221.648:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:24.51 [14268:13904:0724/110224.518:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:27.41 [14268:13904:0724/110227.411:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:30.28 [14268:13904:0724/110230.279:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:33.14 [14268:13904:0724/110233.145:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:36.02 [14268:13904:0724/110236.025:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:38.89 [14268:13904:0724/110238.893:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:41.75 [14268:13904:0724/110241.759:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:44.63 [14268:13904:0724/110244.633:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:47.50 [14268:13904:0724/110247.505:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:50.37 [14268:13904:0724/110250.373:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:53.24 [14268:13904:0724/110253.241:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:56.09 [14268:13904:0724/110256.099:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:02:58.96 [14268:13904:0724/110258.963:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:01.82 [14268:13904:0724/110301.824:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:04.69 [14268:13904:0724/110304.690:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:07.56 [14268:13904:0724/110307.562:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:10.43 [14268:13904:0724/110310.433:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:13.30 [14268:13904:0724/110313.300:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:16.16 [14268:13904:0724/110316.167:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:19.03 [14268:13904:0724/110319.036:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:21.90 [14268:13904:0724/110321.909:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:24.78 [14268:13904:0724/110324.780:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:27.64 [14268:13904:0724/110327.644:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:30.51 [14268:13904:0724/110330.513:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:33.40 [14268:13904:0724/110333.404:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:36.28 [14268:13904:0724/110336.284:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:39.15 [14268:13904:0724/110339.155:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:42.01 [14268:13904:0724/110342.018:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:44.88 [14268:13904:0724/110344.882:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:46.69 [0724/110346.691:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 11:03:47.75 [14268:13904:0724/110347.753:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:50.61 [14268:13904:0724/110350.618:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:53.48 [14268:13904:0724/110353.484:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:56.34 [14268:13904:0724/110356.347:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:03:59.22 [14268:13904:0724/110359.225:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:02.09 [14268:13904:0724/110402.095:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:04.95 [14268:13904:0724/110404.957:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:07.82 [14268:13904:0724/110407.823:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:10.68 [14268:13904:0724/110410.684:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:13.54 [14268:13904:0724/110413.549:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:16.41 [14268:13904:0724/110416.413:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:19.28 [14268:13904:0724/110419.282:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:22.14 [14268:13904:0724/110422.148:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:25.01 [14268:13904:0724/110425.010:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:27.88 [14268:13904:0724/110427.882:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:30.74 [14268:13904:0724/110430.746:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:33.61 [14268:13904:0724/110433.616:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:36.48 [14268:13904:0724/110436.484:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:39.35 [14268:13904:0724/110439.353:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:42.21 [14268:13904:0724/110442.219:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:45.08 [14268:13904:0724/110445.085:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:47.96 [14268:13904:0724/110447.960:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:50.83 [14268:13904:0724/110450.832:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:53.69 [14268:13904:0724/110453.690:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:56.54 [14268:13904:0724/110456.546:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 11:04:58.88 [0724/110458.886:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 11:18:46.69 [0724/111846.692:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 11:20:50.62 [0724/112050.620:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 11:23:42.99 [0724/112342.996:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 11:33:46.69 [0724/113346.692:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 11:35:34.63 [14268:16644:0724/113534.631:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 11:35:39.30 [14268:16644:0724/113539.303:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 11:35:50.33 [14268:16644:0724/113550.338:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 11:48:46.69 [0724/114846.693:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 12:03:46.69 [0724/120346.694:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 12:18:46.69 [0724/121846.695:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 12:30:14.60 [14268:16644:0724/123014.607:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:30:23.47 [14268:16644:0724/123023.475:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:30:25.90 [14268:16644:0724/123025.901:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:30:34.48 [14268:16644:0724/123034.481:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:30:37.11 [14268:16644:0724/123037.117:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:30:44.68 [14268:16644:0724/123044.688:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:30:55.79 [14268:16644:0724/123055.799:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:33:15.29 [14268:16644:0724/123315.291:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:33:25.59 [14268:16644:0724/123325.595:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:33:46.69 [0724/123346.695:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 12:39:05.45 [14268:16644:0724/123905.449:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:41:53.06 [14268:16644:0724/124153.069:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:42:03.87 [14268:16644:0724/124203.871:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:45:12.90 [14268:16644:0724/124512.901:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:45:21.92 [14268:16644:0724/124521.924:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+7월 24, 2018 12:45:33.72 [14268:16644:0724/124533.727:ERROR:extension_protocols.cc(564)] Allowing load of chrome-extension://dagcmkpagjlhakfdhnbomgmjdpkdklff/content-chrome-bundle.js.mapfrom unknown origin. Could not find user data for request.
+
+7월 24, 2018 12:48:44.87 NEW SESSION
+7월 24, 2018 12:48:44.87 [0724/124844.875:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 12:48:44.91 [18192:18400:0724/124844.914:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 24, 2018 12:55:08.93 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 24, 2018 12:55:08.93 [18192:17960:0724/125508.934:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 12:55:08.93 [18192:17960:0724/125508.934:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 12:55:08.93 [18192:17960:0724/125508.934:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 12:55:08.93 [18192:17960:0724/125508.935:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 12:55:08.93 [18192:17960:0724/125508.935:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 12:55:08.93 [18192:17960:0724/125508.935:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 12:55:08.93 [18192:17960:0724/125508.935:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+
+7월 24, 2018 12:59:39.98 NEW SESSION
+7월 24, 2018 12:59:39.98 [0724/125939.985:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 12:59:40.02 [2740:17856:0724/125940.022:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+
+7월 24, 2018 13:06:27.19 NEW SESSION
+7월 24, 2018 13:06:27.19 [0724/130627.197:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:10:52.28 [0724/131052.280:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:14:34.54 [0724/131434.540:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:26:04.93 [0724/132604.935:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:26:24.26 [0724/132624.261:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:26:24.30 [13300:6268:0724/132624.299:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 24, 2018 13:27:55.54 [0724/132755.541:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:29:10.61 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 24, 2018 13:29:10.61 [13300:84:0724/132910.612:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 13:29:10.61 [13300:84:0724/132910.613:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 13:29:10.61 [13300:84:0724/132910.613:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 13:29:10.61 [13300:84:0724/132910.613:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 13:29:10.61 [13300:84:0724/132910.613:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 13:29:10.61 [13300:84:0724/132910.613:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 13:29:10.61 [13300:84:0724/132910.613:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 13:29:12.56 [0724/132912.564:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:29:12.60 [15284:3752:0724/132912.601:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 24, 2018 13:39:12.56 [0724/133912.564:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:39:12.56 [0724/133912.564:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:43:20.46 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 24, 2018 13:43:25.64 [0724/134325.640:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:43:25.67 [9256:4712:0724/134325.676:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 24, 2018 13:53:25.64 [0724/135325.641:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:53:25.64 [0724/135325.641:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 13:58:25.64 [0724/135825.640:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 14:13:25.64 [0724/141325.641:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 14:28:25.64 [0724/142825.642:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 14:40:23.37 [0724/144023.375:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 14:43:25.64 [0724/144325.643:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 14:58:25.64 [0724/145825.644:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 15:13:25.64 [0724/151325.644:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 15:24:24.37 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 24, 2018 15:24:24.37 [9256:4712:0724/152424.371:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
+7월 24, 2018 15:28:25.64 [0724/152825.645:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 15:43:25.64 [0724/154325.646:ERROR:crash_report_database_win.cc(428)] unexpected header

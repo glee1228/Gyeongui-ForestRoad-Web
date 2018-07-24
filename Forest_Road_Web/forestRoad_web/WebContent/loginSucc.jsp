@@ -1,5 +1,8 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="model.domain.PlaceDTO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR" session="true"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>   
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <title>Gyeongui-line-forest-road-web</title>
@@ -15,6 +18,75 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 body, html {
     height: 100%;
     line-height: 1.8;
+}
+.table-wrapper-scroll-y {
+  display: block;
+  max-height: 200px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+/* The container */
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 120px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
 }
 /* Full height image header */
 .bgimg-1 {
@@ -149,7 +221,7 @@ span.psw {
 .tab {
     overflow: hidden;
     border: 1px solid #d1d1d1;
-    background-color: #e1e1e1;
+    background-color: #ffffff;
 }
 
 /* Style the buttons inside the tab */
@@ -194,10 +266,25 @@ span.psw {
     from {opacity: 0;}
     to {opacity: 1;}
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
 </style>
 <body>
 
-<script>alert('${sessionScope.name}'+"님 반갑습니다!")</script>
+	<script>alert('${sessionScope.name}'+"님 반갑습니다!")</script>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
@@ -247,111 +334,73 @@ span.psw {
   </div>
 </header>
 <!-- About Section -->
-	<div class="w3-container" style="padding: 128px 16px" id="about">
-		<h2 class="w3-center">ABOUT</h2>
-		<p class="w3-center w3-large">Gyeongui Line Forest Road Route Section</p>
+   <div class="w3-container" style="padding: 64px 16px" id="about">
+      <h2 class="w3-center">ABOUT</h2>
+      <p class="w3-center w3-large">Gyeongui Line Forest Road Route
+         Section</p>
 
 
-		<div class="tab">
-			<button class="tablinks" style="color:black" onclick="openCity(event, '연남동 구간')">
-				연남동 구간
-			</button>
-			<button class="tablinks" style="color:black" onclick="openCity(event, '와우교 구간')">
-				와우교 구간
-			</button>
-			<button class="tablinks" style="color:black" onclick="openCity(event, '신수동 구간')">
-				신수동 구간
-			</button>
-			<button class="tablinks" style="color:black" onclick="openCity(event, '대흥동 구간')">
-				대흥동 구간
-			</button>
-			<button class="tablinks" style="color:black" onclick="openCity(event, '염리동 구간')">
-				염리동 구간
-			</button>
-			<button class="tablinks" style="color:black" onclick="openCity(event, '새창로 구간')">
-				새창로 구간
-			</button>
-			<button class="tablinks" style="color:black" onclick="openCity(event, '원효로 구간')">
-				원효로 구간
-			</button>
-		</div>
-		</div>
-		<div class="w3-margin-left">
-		
-			<div id="연남동 구간" class="tabcontent">
-				<h3>1. 연남동 구간 (1,268m)</h3>
-				<p>
-					<b>| KEYWORD: #연트럴파크 #홍대입구역 #3번출구 #은행나무 |</b> <br>
-					<br>홍대입과 입접해 있어, 젊음과 공연예술로 활기가 넘치는 구간이다.<br>
-					<br> 폐철길을 따라 늘어선 1km에 달하는 은행나무 길은 가을 산책로로 제격이다.
-				</p>
-			</div>
+      <div class="tab">
+      <style> button{font-family: "Raleway", sans-serif}</style>
+      
+         <button class="tablinks" style="color:black" onclick="openCity(event, 'Yeonnam-dong')">
+            Yeonnam-dong
+         </button>
+         <button class="tablinks" style="color:black" onclick="openCity(event, 'Wau-gyo')">
+            Wau-gyo
+         </button>
+         <button class="tablinks" style="color:black" onclick="openCity(event, 'Sinsu-dong')">
+            Sinsu-dong
+         </button>
+         <button class="tablinks" style="color:black" onclick="openCity(event, 'Daeheung-dong')">
+            Daeheung-dong
+         </button>
+         <button class="tablinks" style="color:black" onclick="openCity(event, 'Yeomni-dong')">
+            Yeomni-dong
+         </button>
+         <button class="tablinks" style="color:black" onclick="openCity(event, 'Saechang-ro')">
+            Saechang-ro
+         </button>
+         <button class="tablinks" style="color:black" onclick="openCity(event, 'Wonhyo-ro')">
+            Wonhyo-ro
+         </button>
+      </div>
+      </div>
+      <div class="w3-margin-left w3-center">
+      <style>
+         p{font-family: "NanumBarunGothic", sans-serif}   </style>
+        
+         <div id="Yeonnam-dong" class="tabcontent">
+            <img src="img/section/section1.png" class="#Yeonnam-dong.tabcontent" width=65% height="55%" onclick="location.href='#search'">
+         </div>
 
-			<div id="와우교 구간" class="tabcontent">
-				<h3>2. 와우교 구간(366m)</h3>
-				<p>
-					<b>| KEYWORD: #땡땡거리 #문화예술공간 #소강장 #소풍 #연인 #데이트 |</b> <br>
-					<br> 옛날 기차가 지나갈 때면 건널목에 차단기가 내려지고 '땡땡' 소리가 울린다고 해서 '땡땡거리'로 불리는
-					곳이다. <br>
-					<br> 기찻길이 일상공간이던 창전동을 떠올리게 하는 조형물과 문화예술공간을 조성했다 . <br>
-					<br> 다목적 소강장과 공연장이 함께 있어 연인들의 소풍 코스로 추천된다.
-				</p>
-			</div>
+         <div id="Wau-gyo" class="tabcontent">
+            <img src="img/section/section2.png" class="#Wau-gyo.tabcontent" width=65% height="55%" onclick="location.href='#search'">
+         </div>
 
-			<div id="신수동 구간" class="tabcontent">
-				<h3>3. 신수동 구간(390m)</h3>
-				<p>
-					<b>| KEYWORD: #잔디마당 #레일가든 #소광장 #서강대역1번출구 |</b> <br>
-					<br>일제 강점기 인공하천인 '선통물천'의 재현을 위해 만든 실개천이 특징이다. <br> <br>
-					학생들과 지역커뮤니티를 위한 넓은 잔디마당과 대흥동 구간과 연계한 레일가든, 소광장등이 볼 거리이다. <br>
-					<br> 서강대 경의 중앙선 1번 출구와 연결되어 있다.
-				</p>
-			</div>
+         <div id="Sinsu-dong" class="tabcontent">
+            <img src="img/section/section3.png" class="#Sinsu-dong.tabcontent" width=65% height="55%" onclick="location.href='#search'">
+         </div>
 
 
-			<div id="대흥동 구간" class="tabcontent">
-				<h3>4. 대흥동 구간(760m)</h3>
-				<p>
-					<b>| KEYWORD: #공덕 #대흥동 #벚꽃 #봄 |</b> <br>
-					<br>경의선 숲길 중 가장 먼저 개통된 구간으로 상업지역인 공덕과 주거지인 대흥일대를 모두 고려하여 산책로와
-					자전거길을 조성했다. <br> <br> 특히, 봄이면 벚꽃이 만개하여 서울의 서울이 벚꽃 명소로
-					유명하다.
-				</p>
-			</div>
+         <div id="Daeheung-dong" class="tabcontent">
+            <img src="img/section/section4.png" class="#Daeheung-dong.tabcontent" width=65% height="55%" onclick="location.href='#search'">
+         </div>
 
-			<div id="염리동 구간" class="tabcontent">
-				<h3>5. 염리동 구간(150m)</h3>
-				<p>
-					<b>| KEYWORD: #메타세콰이어 #느티나무 #녹색정원 #연못 |</b> <br>
-					<br>메타세콰이어길과 느티나무 터널이 많든 '빌딩 속 녹색정원' 과거 철길을 재현한 공간이다. <br>
-					<br> 작은 연못, 잔디밭, 곳곳에 심은 나무들이 어우러져 알찬 구간이다.
-				</p>
-			</div>
+         <div id="Yeomni-dong" class="tabcontent">
+            <img src="img/section/section5.png" class="#Yeomni-dong.tabcontent" width=65% height="55%" onclick="location.href='#search'">
+         </div>
 
-			<div id="새창로 구간" class="tabcontent">
-				<h3>6.새창로 구간(630m)</h3>
-				<p>
-					<b>| KEYWORD: #남산 #N서울타워 #용산 #경치 |</b> <br>
-					<br>공덕역 10번출구에서 효창공원까지 이어지는 새창로 구간은 경의선으로 단절되었던 구간에 대형 소나무를 심어
-					능선으 복원했다. <br> <br> 특히 남산과 N서울타워, 마포 동부지역, 용산 서부지역이 시원하게
-					내려다보이는 조망공간이 있다.
-				</p>
-			</div>
+         <div id="Saechang-ro" class="tabcontent">
+            <img src="img/section/section6.png" class="#Saechang-ro.tabcontent" width=65% height="55%" onclick="location.href='#search'">
+         </div>
 
-			<div id="원효로 구간" class="tabcontent">
-				<h3>7. 원효로 구간(690m)</h3>
-				<p>
-					<b>| KEYWORD: #히스토리월 #historywall #경의선역사 #열매 |</b> <br>
-					<br>옛 화차와 1906년 개통된 옛 경의선에 대한 히스토리월 (wall)을 설치되어 있어 아이들과 함께
-					역사적 의의를 되새겨 보기 좋다. <br>
-					<br> 특히, 다른 구간에 비해 유실수가 많기 때문에 사계절 다양한 열매를 관찰할 수 있다.
-				</p>
-			</div>
-		</div>
-	
-
-
-<script>
+         <div id="Wonhyo-ro" class="tabcontent">
+            <img src="img/section/section7.png" class="#Wonhyo-ro.tabcontent" width=65% height="55%" onclick="location.href='#search'">
+         </div>
+      </div>
+   
+   <script>
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -373,24 +422,108 @@ function openCity(evt, cityName) {
 	<div class="w3-container" style="padding: 128px 16px" id="search">
 		<h3 class="w3-center">SEARCH</h3>
 		<p class="w3-center w3-large"> the Restuarant, RestRoom, Parking lot</p>
-		<div id="map" style="width: 65%; height: 550px;"></div>
-
+		<div id="map" style="width: 90%; height: 500px;"></div>
+		<div class="w3-container w3-row w3-center w3-padding-16">
+		<form action="cont" method="post">
+		<div class="w3-quarter">
+		<h4>1. Click on your location on the map</h4>
+		latitude : <input id=lat type="text" name="lat"><br>
+		longitude : <input id=lng type="text" name="lng">
+		</div>
+		<div class="w3-quarter">
+				<h4>2. Where to search</h4>
+				<label class="radio-container">Restaurant 
+				<input type="radio" value="restaurant" checked="checked" name="type"> <span class="checkmark"></span>
+				</label> <label class="radio-container">RestRoom 
+				<input type="radio" value="restroom" name="type"> <span class="checkmark"></span>
+				</label> <label class="radio-container">Parking lot 
+				<input type="radio" value="parking" name="type"> <span class="checkmark"></span>
+				</label> 
+			</div>
+		
+		<div class="w3-quarter">
+				<h4>3. Select distance</h4>
+				<label class="radio-container">Within 300M
+				<input type="radio" value="300" checked="checked" name="distance"> <span class="checkmark"></span>
+				</label> <label class="radio-container">Within 500m 
+				<input type="radio" value="500" name="distance"> <span class="checkmark"></span>
+				</label> <label class="radio-container">Within 1000M 
+				<input type="radio" value="1000" name="distance"> <span class="checkmark"></span>
+				</label> <label class="radio-container">Within 2000M 
+				<input type="radio" value="2000" name="distance"> <span class="checkmark"></span>
+				</label> 
+			</div>
+			<input type="hidden" name="command" value="search"> 
+		<div class="w3-quarter"><input class="w3-btn w3-theme w3-xxlarge w3-half" style="color:gray"type="submit" value="SEARCH">
+		</div>
+		</form>
+		</div>
 		<!-- Promo Section "Statistics" -->
-		<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-32">
-			<div class="w3-quarter">
-				<span class="w3-xxlarge">14+</span> <br>Partners
+		<div class="w3-container w3-row w3-center w3-padding-32">
+			<div class="w3-half"><h3><%="전체 데이터"%></h3>
+				<div class="table-wrapper-scroll-y">
+					<table class="table table-bordered table-striped w3-center">
+						<thead>
+							<tr>
+								<th scope="col">#</th>
+								<th scope="col">이름</th>
+								<th scope="col">종류</th>
+								<th scope="col">거리</th>
+							</tr>
+						</thead>
+						<tbody>
+						<c:if test="${not empty sessionScope.dataAll}">
+							<c:forEach items="${sessionScope.dataAll}" var="dto" varStatus="status">
+								<tr><td>${status.count}</td><td>${dto.name }</td><td>${dto.type }</td><td>${dto.distance}</td></tr>
+							</c:forEach>
+						</c:if>
+						
+						<c:if test="${empty sessionScope.dataAll}">
+							해당 데이터가 없음<br>
+						</c:if>
+							
+							
+							
+						</tbody>
+					</table>
+				</div>
 			</div>
-			<div class="w3-quarter">
-				<span class="w3-xxlarge">55+</span> <br>Projects Done
+			<div class="w3-half"><h3><%="선택한 거리 이내의 "%>${sessionScope.type } </h3>
+				<div class="table-wrapper-scroll-y">
+					<table class="table table-bordered table-striped w3-center">
+						<thead>
+							<tr>
+								<th scope="col">#</th>
+								<th scope="col">이름</th>
+								<th scope="col">종류</th>
+								<th scope="col">거리</th>
+							</tr>
+						</thead>
+						<tbody>
+							
+						<c:if test="${not empty sessionScope.typesearch}">
+							<c:forEach items="${sessionScope.typesearch}" var="dto2" varStatus="status" >
+								<tr><td>${status.count}</td><td>${dto2.name }</td><td>${dto2.type }</td><td>${dto2.distance}</td></tr>
+							</c:forEach>
+						</c:if>
+						
+						<c:if test="${empty sessionScope.typesearch}">
+							해당 데이터가 없음<br>
+						</c:if>
+							
+							
+							
+						</tbody>
+					</table>
+				</div>
 			</div>
-			<div class="w3-quarter">
-				<span class="w3-xxlarge">89+</span> <br>Happy Clients
-			</div>
-			<div class="w3-quarter">
-				<span class="w3-xxlarge">150+</span> <br>Meetings
-			</div>
+				
+			
+			
 		</div>
 	</div>
+	
+	<!--  Naver Map Tag -->
 	<script>
       var map = new naver.maps.Map('map');
       var myaddress = '동교동';// 도로명 주소나 지번 주소만 가능 (건물명 불가!!!!)
@@ -409,6 +542,7 @@ function openCity(evt, cityName) {
             position: myaddr,
             map: map
           });
+          
           // 마커 클릭 이벤트 처리
           naver.maps.Event.addListener(marker, "click", function(e) {
             if (infowindow.getMap()) {
@@ -417,11 +551,86 @@ function openCity(evt, cityName) {
                 infowindow.open(map, marker);
             }
           });
+          //마커 이동
+          naver.maps.Event.addListener(map, 'click', function(e) {
+        	    marker.setPosition(e.latlng);
+        	    document.getElementById("lat").value=e.coord.lat();
+        	    document.getElementById("lng").value=e.coord.lng();
+        	    //alert(e.coord.lat() + ', ' + e.coord.lng());
+        	});
           // 마크 클릭시 인포윈도우 오픈
           var infowindow = new naver.maps.InfoWindow({
-              content: '<h4> [네이버 개발자센터]</h4><a href="https://developers.naver.com" target="_blank"><img src="https://developers.naver.com/inc/devcenter/images/nd_img.png"></a>'
+              content: '<h3> 선택한 지점</h3><img src="img/section4.jpg">'
           });
+          function initGeocoder() {
+        	    var latlng = map.getCenter();
+        	    var utmk = naver.maps.TransCoord.fromLatLngToUTMK(latlng); // 위/경도 -> UTMK
+        	    var tm128 = naver.maps.TransCoord.fromUTMKToTM128(utmk);   // UTMK -> TM128
+        	    var naverCoord = naver.maps.TransCoord.fromTM128ToNaver(tm128); // TM128 -> NAVER
+
+        	    infoWindow = new naver.maps.InfoWindow({
+        	        content: ''
+        	    });
+
+        	    map.addListener('click', function(e) {
+        	    	
+        	    	<script type="text/javascript">
+        			function loadDoc() {
+        				var xhttp = new XMLHttpRequest();
+        				
+        				xhttp.onreadystatechange = function() {
+        					if (this.readyState == 4 && this.status == 200) {
+        						
+        						var data = this.responseText;
+        						data = eval(data);    //포맷이 배열 구조의 문자열일 경우 배열 객체로 반환
+        						data = JSON.parse(data);  // 배열도 반환 가능.
+        						alert(data);
+        						
+        						//document.getElementById("dataView2").innerText = data2+" "+data3;
+        						
+        					}
+        				};
+        				xhttp.open("GET", "LocationAjax.jsp", true);
+        				xhttp.send();
+        			}
+        		</script>
+        		
+        	    	<!--  alert(1);--!>
+        	    	
+        	    	
+        	        var latlng = e.coord,
+        	            utmk = naver.maps.TransCoord.fromLatLngToUTMK(latlng),
+        	            tm128 = naver.maps.TransCoord.fromUTMKToTM128(utmk),
+        	            naverCoord = naver.maps.TransCoord.fromTM128ToNaver(tm128);
+
+        	        utmk.x = parseFloat(utmk.x.toFixed(1));
+        	        utmk.y = parseFloat(utmk.y.toFixed(1));
+
+        	        infoWindow.setContent([
+        	            '<div style="padding:10px;width:380px;font-size:14px;line-height:20px;">',
+        	            '<strong>LatLng</strong> : '+ latlng.toString() +'<br />',
+        	            '<strong>UTMK</strong> : '+ utmk.toString() +'<br />',
+        	            '<strong>TM128</strong> : '+ tm128.toString() +'<br />',
+        	            '<strong>NAVER</strong> : '+ naverCoord.toString() +'<br />',
+        	            '</div>'
+        	        ].join(''));
+
+        	        infoWindow.open(map, latlng);
+        	        console.log('LatLng: ' + latlng.toString());
+        	        console.log('UTMK: ' + utmk.toString());
+        	        console.log('TM128: ' + tm128.toString());
+        	        console.log('NAVER: ' + naverCoord.toString());
+        	    });
+        	}
+
+        	naver.maps.onJSContentLoaded = initGeocoder;
+         
       });
+      
+      
+      //비동기 요청 함수 개발 
+      
+      
       </script>
 
 
