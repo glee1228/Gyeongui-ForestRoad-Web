@@ -690,3 +690,38 @@
 7월 24, 2018 15:24:24.37 [9256:4712:0724/152424.371:ERROR:latency_info.cc(164)] Surface::TakeLatencyInfoFromFrame, LatencyInfo vector size 102 is too big.
 7월 24, 2018 15:28:25.64 [0724/152825.645:ERROR:crash_report_database_win.cc(428)] unexpected header
 7월 24, 2018 15:43:25.64 [0724/154325.646:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 15:58:25.64 [0724/155825.646:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 16:13:25.64 [0724/161325.647:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 16:23:59.61 [0724/162359.613:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 16:28:25.64 [0724/162825.648:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 16:39:50.55 [9256:13092:0724/163950.558:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 16:39:50.55 [9256:13092:0724/163950.558:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 16:39:50.55 [9256:13092:0724/163950.558:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 16:39:50.55 [9256:13092:0724/163950.559:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 16:39:50.55 [9256:13092:0724/163950.559:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 16:39:50.55 [9256:13092:0724/163950.559:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 16:39:50.56 [9256:13092:0724/163950.562:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 16:39:50.56 [9256:13092:0724/163950.562:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 16:39:50.56 [9256:13092:0724/163950.562:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 16:39:50.56 [9256:13092:0724/163950.563:ERROR:service_manager_context.cc(258)] Attempting to run unsupported native service: C:\Program Files (x86)\Google\Chrome\Application\67.0.3396.99\content_browser.service.exe
+7월 24, 2018 16:39:56.14 [0724/163956.146:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 16:39:56.19 [972:17792:0724/163956.195:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 24, 2018 16:49:56.14 [0724/164956.147:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 16:49:56.14 [0724/164956.147:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 16:53:14.18 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 24, 2018 17:08:59.41 [0724/170859.412:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 17:08:59.48 [3440:1080:0724/170859.483:ERROR:install_util.cc(589)] Unable to create registry key HKLM\SOFTWARE\Policies\Google\Chrome for reading result=2
+7월 24, 2018 17:18:59.41 [0724/171859.412:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 17:18:59.41 [0724/171859.412:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 17:23:59.41 [0724/172359.413:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 17:38:59.41 [0724/173859.414:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 24, 2018 20:47:15.31 Unable to read VR Path Registry from C:\Users\user\AppData\Local\openvr\openvrpaths.vrpath
+7월 24, 2018 20:47:15.32 [3440:1080:0724/204715.292:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7월 25, 2018 08:58:35.11 [3440:1080:0725/085835.111:ERROR:gcm_channel_status_request.cc(127)] GCM channel request failed.
+7월 25, 2018 09:05:04.71 [0725/090504.714:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 25, 2018 09:20:04.71 [0725/092004.715:ERROR:crash_report_database_win.cc(428)] unexpected header
+
+7월 26, 2018 12:49:21.62 NEW SESSION
+7월 26, 2018 12:49:21.63 [0726/124921.627:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 26, 2018 17:17:17.12 [0726/171717.122:ERROR:crash_report_database_win.cc(428)] unexpected header
+7월 26, 2018 18:15:47.60 [0726/181547.602:ERROR:crash_report_database_win.cc(428)] unexpected header

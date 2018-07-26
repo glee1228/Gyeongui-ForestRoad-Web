@@ -69,6 +69,7 @@ public class AllController extends HttpServlet {
 		request.setCharacterEncoding("UTF-8");
 		HttpSession session = request.getSession(false);
 		session.setAttribute("type", request.getParameter("type"));
+		session.setAttribute("distance", request.getParameter("distance"));
 		System.out.println(request.getParameter("lat")+request.getParameter("lng")+request.getParameter("type")+request.getParameter("distance"));
 		System.out.println(session.getAttribute("type"));
 		String type = (String) session.getAttribute("type");
@@ -89,6 +90,19 @@ public class AllController extends HttpServlet {
 			request.setAttribute("msg", "검색 실패. 재시도 하세요.");
 			request.getRequestDispatcher("msgView.jsp").forward(request, response);
 		}
+	}
+	private void setLocation(HttpServletRequest request, HttpServletResponse response) throws IOException {
+		request.setCharacterEncoding("UTF-8");
+		HttpSession session = request.getSession(false);
+		String clat2=request.getParameter("lat");
+		String clng2=request.getParameter("lng");
+		double clat = Double.parseDouble(clat2);
+		double clng = Double.parseDouble(clng2);
+		session.setAttribute("clat", clat);
+		session.setAttribute("clng", clng);
+		System.out.println("setLocation");
+		response.sendRedirect("loginSucc.jsp");
+		
 	}
 	private void signup(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		request.setCharacterEncoding("UTF-8");

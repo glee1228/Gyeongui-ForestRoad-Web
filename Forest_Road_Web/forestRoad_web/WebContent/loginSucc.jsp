@@ -574,28 +574,8 @@ function openCity(evt, cityName) {
 
         	    map.addListener('click', function(e) {
         	    	
-        	    	<script type="text/javascript">
-        			function loadDoc() {
-        				var xhttp = new XMLHttpRequest();
-        				
-        				xhttp.onreadystatechange = function() {
-        					if (this.readyState == 4 && this.status == 200) {
-        						
-        						var data = this.responseText;
-        						data = eval(data);    //포맷이 배열 구조의 문자열일 경우 배열 객체로 반환
-        						data = JSON.parse(data);  // 배열도 반환 가능.
-        						alert(data);
-        						
-        						//document.getElementById("dataView2").innerText = data2+" "+data3;
-        						
-        					}
-        				};
-        				xhttp.open("GET", "LocationAjax.jsp", true);
-        				xhttp.send();
-        			}
-        		</script>
-        		
-        	    	<!--  alert(1);--!>
+        	    	loadDoc();
+        	    	alert(1);
         	    	
         	    	
         	        var latlng = e.coord,
@@ -622,6 +602,24 @@ function openCity(evt, cityName) {
         	        console.log('NAVER: ' + naverCoord.toString());
         	    });
         	}
+          /*function loadDoc() {
+  			var xhttp = new XMLHttpRequest();
+  			
+  			xhttp.onreadystatechange = function() {
+  				if (this.readyState == 4 && this.status == 200) {
+  					
+  					var data = this.responseText;
+  					data = eval(data);    //포맷이 배열 구조의 문자열일 경우 배열 객체로 반환
+  					data = JSON.parse(data);  // 배열도 반환 가능.
+  					alert(data);
+  					
+  					//document.getElementById("dataView2").innerText = data2+" "+data3;
+  					
+  				}
+  			};
+  			xhttp.open("GET", "cont?command=setLocation&lat=latlng.x&lng=latlng.y", true);
+  			xhttp.send();
+  		}*/
 
         	naver.maps.onJSContentLoaded = initGeocoder;
          
