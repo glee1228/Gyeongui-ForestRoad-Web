@@ -2,19 +2,19 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="msg" key="selection"/>
+		<item value="Naver" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="true" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="naver"/>
 			<item value="msg"/>
 			<item value="$"/>
 			<item value="{"/>
 			<item value="distance"/>
 			<item value="xhttp"/>
 			<item value="cont?"/>
-			<item value="naver"/>
 			<item value="table"/>
 			<item value="type"/>
 			<item value="비동기"/>
